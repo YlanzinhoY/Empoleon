@@ -9,5 +9,14 @@
                <option name="JAVA_CODE" value="true" />
            </context>
        </template>
-
+    <template name="db" value="Double" description="Shortcut for Double wrapper class" toReformat="true" toShortenFQNames="true">
+    <context>
+        <option name="JAVA_CODE" value="true" />
+    </context>
+    </template>
+    <template name="fl" value="Float" description="Shortcut for Float wrapper class" toReformat="true" toShortenFQNames="true">
+    <context>
+        <option name="JAVA_CODE" value="true" />
+    </context>
+</template>
 </templateSet>

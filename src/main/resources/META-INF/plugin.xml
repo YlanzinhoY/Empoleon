@@ -1,20 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>com.github.ylanzinhoy.my_shortcuts_java</id>
+    <id>com.github.ylanzinhoy.empoleon</id>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>My_shortcuts_java</name>
+    <name>Empoleon</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="enzolanzellotti.dev@gmail.com" url="https://www.yourcompany.com">YourCompany</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
-    <description>
-    </description>
 
     <!-- Product and plugin compatibility requirements.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
@@ -25,7 +23,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/ShortCuts.xml" />
     <liveTemplateContext
-            implementation="com.github.ylanzinhoy.my_shortcuts_java.Shortcuts"
+            implementation="com.github.ylanzinhoy.empoleon.Shortcuts"
             contextId="SHORTCUTS_CONTEXT"/>
     </extensions>
 </idea-plugin>

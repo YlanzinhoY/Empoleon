@@ -1,4 +1,4 @@
-package com.github.ylanzinhoy.my_shortcuts_java;
+package com.github.ylanzinhoy.empoleon;
 
 import com.intellij.codeInsight.template.TemplateActionContext;
 import com.intellij.codeInsight.template.TemplateContextType;
@@ -13,6 +13,7 @@ public class Shortcuts extends TemplateContextType {
     public boolean isInContext(@NotNull TemplateActionContext templateActionContext) {
         return templateActionContext.getFile().getName().endsWith(".java");
     }
+
 
 
 }
