@@ -1,0 +1,13 @@
+<templateSet group="Shortcuts">
+    <template name="str" value="String" description="Shortcut for String" toReformat="true" toShortenFQNames="true">
+        <context>
+            <option name="JAVA_CODE" value="true" />
+        </context>
+    </template>
+       <template name="int" value="Integer" description="Shortcut for Integer" toReformat="true" toShortenFQNames="true">
+           <context>
+               <option name="JAVA_CODE" value="true" />
+           </context>
+       </template>
+
+</templateSet>
